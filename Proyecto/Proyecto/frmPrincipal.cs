@@ -37,6 +37,20 @@ namespace Proyecto
             txtInclusion_piso01.Clear();
             txtLudico_piso01.Clear();
             
+            txtBiblioteca_piso02.Clear();
+            txtComputo_piso02.Clear();
+            txtProyeccion_piso02.Clear();
+            txtLudico_piso02.Clear();
+            
+            txtBiblioteca_piso03.Clear();
+            txtComputo_piso03.Clear();
+            txtProyeccion_piso03.Clear();
+            
+            txtBiblioteca04.Clear();
+            txtComputo04.Clear();
+            txtProyeccion04.Clear();
+            txtInvestigacion04.Clear();
+            
        //Para area biblioteca piso 01
             foreach (var a in AreaDAO.FiltrarPorPiso(1, "Biblioteca variada"))
             {

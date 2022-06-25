@@ -150,6 +150,7 @@
             this.txtBusqueda = new System.Windows.Forms.TextBox();
             this.tabPrestamo = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.dgvPrestamo = new System.Windows.Forms.DataGridView();
             this.tabPage14 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -177,7 +178,6 @@
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.dgvPrestamo = new System.Windows.Forms.DataGridView();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -243,6 +243,7 @@
             ((System.ComponentModel.ISupportInitialize) (this.pctBusquedaDecorando02)).BeginInit();
             this.tabPrestamo.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.dgvPrestamo)).BeginInit();
             this.panel6.SuspendLayout();
             this.tableLayoutPanel13.SuspendLayout();
             this.panel18.SuspendLayout();
@@ -258,7 +259,6 @@
             this.tableLayoutPanel18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize) (this.dgvPrestamo)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -1368,7 +1368,6 @@
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox17.TabIndex = 4;
             this.pictureBox17.TabStop = false;
-            this.pictureBox17.Click += new System.EventHandler(this.pictureBox17_Click);
             // 
             // panel8
             // 
@@ -1973,6 +1972,15 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(888, 712);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
+            // dgvPrestamo
+            // 
+            this.dgvPrestamo.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvPrestamo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPrestamo.Location = new System.Drawing.Point(225, 145);
+            this.dgvPrestamo.Name = "dgvPrestamo";
+            this.dgvPrestamo.Size = new System.Drawing.Size(438, 421);
+            this.dgvPrestamo.TabIndex = 0;
+            // 
             // tabPage14
             // 
             this.tabPage14.Location = new System.Drawing.Point(0, 0);
@@ -2280,15 +2288,6 @@
             this.pictureBox16.TabIndex = 2;
             this.pictureBox16.TabStop = false;
             // 
-            // dgvPrestamo
-            // 
-            this.dgvPrestamo.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvPrestamo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPrestamo.Location = new System.Drawing.Point(225, 145);
-            this.dgvPrestamo.Name = "dgvPrestamo";
-            this.dgvPrestamo.Size = new System.Drawing.Size(438, 421);
-            this.dgvPrestamo.TabIndex = 0;
-            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -2381,6 +2380,7 @@
             ((System.ComponentModel.ISupportInitialize) (this.pctBusquedaDecorando02)).EndInit();
             this.tabPrestamo.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize) (this.dgvPrestamo)).EndInit();
             this.panel6.ResumeLayout(false);
             this.tableLayoutPanel13.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
@@ -2396,7 +2396,6 @@
             this.tableLayoutPanel18.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize) (this.dgvPrestamo)).EndInit();
             this.ResumeLayout(false);
         }
 
