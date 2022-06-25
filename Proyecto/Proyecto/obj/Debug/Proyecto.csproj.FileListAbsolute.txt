@@ -147,3 +147,15 @@ C:\Users\micha\OneDrive\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.
 C:\Users\micha\OneDrive\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
 C:\Users\micha\OneDrive\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\micha\OneDrive\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\melvi\Desktop\Reposicion\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\melvi\Desktop\Reposicion\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\melvi\Desktop\Reposicion\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\melvi\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\melvi\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\melvi\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\melvi\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.Login.resources
+C:\Users\melvi\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\melvi\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\melvi\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\melvi\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\melvi\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
