@@ -1,0 +1,137 @@
+C:\Users\melvi\Desktop\UCA\POO\Proyecto\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\melvi\Desktop\UCA\POO\Proyecto\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\melvi\Desktop\UCA\POO\Proyecto\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\melvi\Desktop\UCA\POO\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\melvi\Desktop\UCA\POO\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\melvi\Desktop\UCA\POO\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\melvi\Desktop\UCA\POO\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\melvi\Desktop\UCA\POO\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\melvi\Desktop\UCA\POO\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\melvi\Desktop\UCA\POO\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\melvi\Desktop\UCA\POO\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\micha\Downloads\RepositorioProyecto-main\RepositorioProyecto-main\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\micha\Downloads\RepositorioProyecto-main\RepositorioProyecto-main\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\Downloads\RepositorioProyecto-main\RepositorioProyecto-main\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\micha\Downloads\RepositorioProyecto-main\RepositorioProyecto-main\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\micha\Downloads\RepositorioProyecto-main\RepositorioProyecto-main\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\micha\Downloads\RepositorioProyecto-main\RepositorioProyecto-main\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\micha\Downloads\RepositorioProyecto-main\RepositorioProyecto-main\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\micha\Downloads\RepositorioProyecto-main\RepositorioProyecto-main\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\micha\Downloads\RepositorioProyecto-main\RepositorioProyecto-main\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\micha\Downloads\RepositorioProyecto-main\RepositorioProyecto-main\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\micha\Downloads\RepositorioProyecto-main\RepositorioProyecto-main\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Git hub Repo base proyecto\Proyecto-Final1.0\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Repositorio\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Repositorio\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Repositorio\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Repositorio\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Repositorio\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Repositorio\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Repositorio\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Repositorio\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Repositorio\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Repositorio\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Repositorio\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\melvi\Desktop\ProyectoPOO-BDD\Proyecto\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\gerar\OneDrive\Escritorio\PRUEBA\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\micha\OneDrive\Desktop\Proyecto poo\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Login.resources
+C:\Users\gerar\OneDrive\Escritorio\PROYECTO\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\gerar\OneDrive\Escritorio\PROYECTO\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\gerar\OneDrive\Escritorio\PROYECTO\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\gerar\OneDrive\Escritorio\PROYECTO\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\gerar\OneDrive\Escritorio\PROYECTO\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\gerar\OneDrive\Escritorio\PROYECTO\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\gerar\OneDrive\Escritorio\PROYECTO\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Login.resources
+C:\Users\gerar\OneDrive\Escritorio\PROYECTO\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\gerar\OneDrive\Escritorio\PROYECTO\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\gerar\OneDrive\Escritorio\PROYECTO\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\gerar\OneDrive\Escritorio\PROYECTO\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\gerar\OneDrive\Escritorio\PROYECTO\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Login.resources
+C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\melvi\Desktop\asl;dfkja\Proyecto-Final1.0\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\fullm\Desktop\Proyecto-Final1.0\Proyecto\Proyecto\obj\Debug\Proyecto.Login.resources
+C:\Users\micha\OneDrive\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\micha\OneDrive\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\micha\OneDrive\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\micha\OneDrive\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\micha\OneDrive\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Login.resources
+C:\Users\micha\OneDrive\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\micha\OneDrive\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\micha\OneDrive\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
