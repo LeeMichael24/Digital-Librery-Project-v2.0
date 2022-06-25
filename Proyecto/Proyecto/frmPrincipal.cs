@@ -188,13 +188,10 @@ namespace Proyecto
 
         private void configurarDgvBusqueda()
         {
-            dgvBusqueda.DataSource = null;
-            dgvBusqueda.DataSource = EjemplarDAO.obtenerTodos();
-            
-            if (cmbBusqueda.Text == "Titulo")
+            if (cmbBusqueda.Text == "Título")
             {
                 dgvBusqueda.DataSource = null;
-                dgvBusqueda.DataSource = EjemplarDAO.buscarTitulo(txtBusqueda.Text.Trim());
+                dgvBusqueda.DataSource = EjemplarDAO.buscarTitle(txtBusqueda.Text.Trim());
             }
             else if (cmbBusqueda.Text == "Autor")
             {
@@ -228,12 +225,19 @@ namespace Proyecto
             gdvEventos.RowTemplate.Height = 100;
             
             //DGV Busqueda Inicial
-            configurarDgvBusqueda();
+            configurarDgvBusqueda1();
         }
 
         private void btnBusqueda_Click(object sender, EventArgs e)
         {
             configurarDgvBusqueda();
+        }
+        
+        private void configurarDgvBusqueda1()
+        {
+            dgvBusqueda.DataSource = null;
+            dgvBusqueda.DataSource = EjemplarDAO.obtenerTodos();
+            
         }
     }
 }

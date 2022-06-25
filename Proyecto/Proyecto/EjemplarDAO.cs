@@ -34,19 +34,20 @@ namespace Proyecto
             return lista;
         }
 
-        public static List<Ejemplar> buscarTitulo(string Titulo){
+        public static List<Ejemplar> buscarTitle(string unTitulo)
+        {
             string cadena = Resources.cadena_conexion;
             List<Ejemplar> lista = new List<Ejemplar>();
 
             using (SqlConnection connection = new SqlConnection(cadena))
             {
                 string query =
-                        "SELECT EJEMPLAR.id_ejemplar, EJEMPLAR.nombre, COLECCION.nombre_coleccion, AUTOR.nombre_autor " +
+                    "SELECT EJEMPLAR.id_ejemplar, EJEMPLAR.nombre, COLECCION.nombre_coleccion, AUTOR.nombre_autor " +
                     "FROM EJEMPLAR, COLECCION, AUTOR WHERE EJEMPLAR.id_coleccion = COLECCION.id_coleccion AND " +
-                        "EJEMPLAR.id_autor = AUTOR.id_autor  AND EJEMPLAR.nombre = @Tbuscado";
+                    "EJEMPLAR.id_autor = AUTOR.id_autor  AND EJEMPLAR.nombre = @Tbuscado";
                 
                 SqlCommand command = new SqlCommand(query, connection);
-                command.Parameters.AddWithValue("@Tbuscado", Titulo);
+                command.Parameters.AddWithValue("@Tbuscado", unTitulo);
                 
                 connection.Open();
                 using (SqlDataReader reader = command.ExecuteReader()){
@@ -63,7 +64,7 @@ namespace Proyecto
             }
             return lista;
         }
-        
+
         public static List<Ejemplar> buscarAutor(string Autor){
             string cadena = Resources.cadena_conexion;
             List<Ejemplar> lista = new List<Ejemplar>();

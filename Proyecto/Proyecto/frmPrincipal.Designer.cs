@@ -142,13 +142,14 @@
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Coleccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtBusqueda = new System.Windows.Forms.TextBox();
             this.btnBusqueda = new System.Windows.Forms.Button();
             this.lblBuscar = new System.Windows.Forms.Label();
             this.pctDecoracionBusqueda01 = new System.Windows.Forms.PictureBox();
             this.pctBusquedaDecorando02 = new System.Windows.Forms.PictureBox();
             this.cmbBusqueda = new System.Windows.Forms.ComboBox();
+            this.txtBusqueda = new System.Windows.Forms.TextBox();
             this.tabPrestamo = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tabPage14 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -176,7 +177,6 @@
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -1763,12 +1763,12 @@
             this.tblBusqueda.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tblBusqueda.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tblBusqueda.Controls.Add(this.dgvBusqueda, 1, 2);
-            this.tblBusqueda.Controls.Add(this.txtBusqueda, 2, 1);
             this.tblBusqueda.Controls.Add(this.btnBusqueda, 3, 1);
             this.tblBusqueda.Controls.Add(this.lblBuscar, 1, 0);
             this.tblBusqueda.Controls.Add(this.pctDecoracionBusqueda01, 0, 0);
             this.tblBusqueda.Controls.Add(this.pctBusquedaDecorando02, 4, 0);
             this.tblBusqueda.Controls.Add(this.cmbBusqueda, 1, 1);
+            this.tblBusqueda.Controls.Add(this.txtBusqueda, 2, 1);
             this.tblBusqueda.Location = new System.Drawing.Point(0, 0);
             this.tblBusqueda.Name = "tblBusqueda";
             this.tblBusqueda.RowCount = 4;
@@ -1827,17 +1827,6 @@
             this.Column1.HeaderText = "Autor";
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
-            // 
-            // txtBusqueda
-            // 
-            this.txtBusqueda.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBusqueda.BackColor = System.Drawing.Color.White;
-            this.txtBusqueda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBusqueda.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(52)))), ((int)(((byte)(64)))));
-            this.txtBusqueda.Location = new System.Drawing.Point(336, 75);
-            this.txtBusqueda.Name = "txtBusqueda";
-            this.txtBusqueda.Size = new System.Drawing.Size(327, 24);
-            this.txtBusqueda.TabIndex = 2;
             // 
             // btnBusqueda
             // 
@@ -1898,6 +1887,14 @@
             this.cmbBusqueda.Size = new System.Drawing.Size(216, 27);
             this.cmbBusqueda.TabIndex = 7;
             // 
+            // txtBusqueda
+            // 
+            this.txtBusqueda.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtBusqueda.Location = new System.Drawing.Point(336, 75);
+            this.txtBusqueda.Name = "txtBusqueda";
+            this.txtBusqueda.Size = new System.Drawing.Size(327, 24);
+            this.txtBusqueda.TabIndex = 8;
+            // 
             // tabPrestamo
             // 
             this.tabPrestamo.Controls.Add(this.tableLayoutPanel2);
@@ -1909,6 +1906,20 @@
             this.tabPrestamo.TabIndex = 4;
             this.tabPrestamo.Text = "Prestamo";
             this.tabPrestamo.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 2);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 2;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(888, 717);
+            this.tableLayoutPanel2.TabIndex = 0;
             // 
             // tabPage14
             // 
@@ -2217,20 +2228,6 @@
             this.pictureBox16.TabIndex = 2;
             this.pictureBox16.TabStop = false;
             // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.ColumnCount = 2;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 2);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(888, 717);
-            this.tableLayoutPanel2.TabIndex = 0;
-            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
@@ -2339,6 +2336,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.TextBox txtBusqueda;
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
 
@@ -2491,8 +2490,6 @@
         private System.Windows.Forms.TableLayoutPanel tlpPlanta2;
 
         private System.Windows.Forms.Button btnBusqueda;
-
-        private System.Windows.Forms.TextBox txtBusqueda;
 
         private System.Windows.Forms.DataGridView dgvBusqueda;
 
