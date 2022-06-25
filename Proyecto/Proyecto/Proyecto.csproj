@@ -113,6 +113,7 @@
       <Content Include="Resources\Home.png" />
       <Content Include="Resources\Home__1_.png" />
       <Content Include="Resources\incluison_area.jpg" />
+      <Content Include="Resources\investigation.png" />
       <Content Include="Resources\Ludico2.png" />
       <Content Include="Resources\Ludicos.jpg" />
       <Content Include="Resources\magnifying_glass.png" />
@@ -120,6 +121,7 @@
       <Content Include="Resources\Prestamo__1_.png" />
       <Content Include="Resources\reading.png" />
       <Content Include="Resources\Salas_de_proyeccion.jpg" />
+      <Content Include="Resources\screen_proyector.png" />
       <Content Include="Resources\SitioWEB_01.jpg" />
       <Content Include="Resources\small_talk.png" />
       <Content Include="Resources\star.png" />

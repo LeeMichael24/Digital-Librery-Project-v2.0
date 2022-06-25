@@ -242,6 +242,16 @@ namespace Proyecto.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap investigation {
+            get {
+                object obj = ResourceManager.GetObject("investigation", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Ludico2 {
             get {
                 object obj = ResourceManager.GetObject("Ludico2", resourceCulture);
@@ -305,6 +315,16 @@ namespace Proyecto.Properties {
         internal static System.Drawing.Bitmap Salas_de_proyeccion {
             get {
                 object obj = ResourceManager.GetObject("Salas_de_proyeccion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap screen_proyector {
+            get {
+                object obj = ResourceManager.GetObject("screen_proyector", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
