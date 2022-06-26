@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.Remoting.Messaging;
@@ -14,6 +15,8 @@ namespace Proyecto
 {
     public partial class frmPrincipal : Form
     {
+        // public static string strMas;
+        SqlConnection cn = new SqlConnection(Resources.cadena_conexion);
         private List<Bitmap> ImagenesInicioSlide;
         public frmPrincipal()
         {
@@ -167,7 +170,29 @@ namespace Proyecto
         private void btmPrestamo_Click(object sender, EventArgs e)
         {
             tcPrincipal.SelectedIndex = 4;
+            
+            
         }
+
+        private void consulta()
+        {
+           
+            string strSentencia;
+            strSentencia = "select a.id_ejemplar, a.nombre, b.nombre_editorial, c.nombre_autor " +
+                           " from EJEMPLAR a, EDITORIAL b, AUTOR c " +
+                           " where a.id_editorial = b.id_editorial " +
+                           " and a.id_autor = c.id_autor " +
+                           " and a.id_ejemplar not in (select id_ejemplar from PRESTA ) " +
+                           " and a.id_ejemplar not in (select id_ejemplar from RESERVA) ";
+
+            SqlCommand cmd = new SqlCommand(strSentencia, cn);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dgvPrestamo.DataSource = dt;
+            cn.Close();
+        }
+
 
         private void btmPlanta1_Click(object sender, EventArgs e)
         {
@@ -260,6 +285,94 @@ namespace Proyecto
             dgvBusqueda.DataSource = null;
             dgvBusqueda.DataSource = EjemplarDAO.obtenerTodos();
             
+        }
+
+        private void tcPrincipal_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            consulta();
+            
+        }
+
+        private void dgvPrestamo_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+        }
+
+        private void dgvPrestamo_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            string strNom;
+            strNom = dgvPrestamo.CurrentRow.Cells[1].Value.ToString();
+            
+            if(MessageBox.Show("Quiere dar a préstamo el ejemplar: " +strNom + "?","Confirme",MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                insertar_prestamo(Convert.ToInt16(dgvPrestamo.CurrentRow.Cells[0].Value.ToString()));
+                consulta();
+            }
+        }
+        
+        private void insertar_prestamo(int idEjemplar)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = cn;
+            int iRes;
+
+            if (cn.State == ConnectionState.Closed)
+            {
+                cn.Open();
+            }
+
+            cmd.CommandText = "insert presta (fechahora_prestamo, fechahora_devolucion, id_usuario, id_ejemplar) values (GETDATE(),GETDATE(),1, @parametro1)";
+            
+            cmd.Parameters.AddWithValue("@parametro1", idEjemplar);
+
+            iRes = cmd.ExecuteNonQuery(); //devuelve 1 si todo salió bien, de lo contrario 0
+
+            if (iRes > 0)
+            {
+                MessageBox.Show("Se creó corectamente el préstamo");
+            }
+            else
+            {
+                MessageBox.Show("Error en la actualización, favor verifique");
+            }
+
+            cn.Close();
+        }
+
+        private void btnEliminarPrestamos_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("Realmente desea eliminar registros de préstamos","Confirme",MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                eliminar_prestamos();
+                consulta();
+            }
+            
+        }
+        
+        private void eliminar_prestamos()
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = cn;
+            int iRes;
+
+            if (cn.State == ConnectionState.Closed) //cuando actualizamos tablas, es de verificar el estado de la conexión
+            {
+                cn.Open();
+            }
+
+            cmd.CommandText = "delete from presta ";
+            
+            iRes = cmd.ExecuteNonQuery();
+
+            if (iRes > 0)
+            {
+                MessageBox.Show("Se borraron los registros");
+            }
+            else
+            {
+                MessageBox.Show("Error en la actualización, favor verifique");
+            }
+
+            cn.Close();
         }
     }
 }

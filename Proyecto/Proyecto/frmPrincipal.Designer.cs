@@ -151,6 +151,10 @@
             this.tabPrestamo = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.dgvPrestamo = new System.Windows.Forms.DataGridView();
+            this.id_ejemplar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre_ejemplar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre_editorial = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre_Autor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage14 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -178,6 +182,7 @@
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.btnEliminarPrestamos = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -437,6 +442,7 @@
             this.tcPrincipal.SelectedIndex = 0;
             this.tcPrincipal.Size = new System.Drawing.Size(900, 745);
             this.tcPrincipal.TabIndex = 0;
+            this.tcPrincipal.SelectedIndexChanged += new System.EventHandler(this.tcPrincipal_SelectedIndexChanged);
             // 
             // tabInicio
             // 
@@ -1962,6 +1968,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.Controls.Add(this.dgvPrestamo, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.btnEliminarPrestamos, 2, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -1974,12 +1981,50 @@
             // 
             // dgvPrestamo
             // 
+            this.dgvPrestamo.AllowUserToAddRows = false;
+            this.dgvPrestamo.AllowUserToDeleteRows = false;
             this.dgvPrestamo.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvPrestamo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPrestamo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {this.id_ejemplar, this.Nombre_ejemplar, this.Nombre_editorial, this.Nombre_Autor});
             this.dgvPrestamo.Location = new System.Drawing.Point(225, 145);
             this.dgvPrestamo.Name = "dgvPrestamo";
+            this.dgvPrestamo.ReadOnly = true;
+            this.dgvPrestamo.RowHeadersVisible = false;
             this.dgvPrestamo.Size = new System.Drawing.Size(438, 421);
             this.dgvPrestamo.TabIndex = 0;
+            this.dgvPrestamo.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPrestamo_CellContentClick);
+            // 
+            // id_ejemplar
+            // 
+            this.id_ejemplar.DataPropertyName = "id_ejemplar";
+            this.id_ejemplar.HeaderText = "Código";
+            this.id_ejemplar.Name = "id_ejemplar";
+            this.id_ejemplar.ReadOnly = true;
+            this.id_ejemplar.Width = 50;
+            // 
+            // Nombre_ejemplar
+            // 
+            this.Nombre_ejemplar.DataPropertyName = "nombre";
+            this.Nombre_ejemplar.HeaderText = "Nombre";
+            this.Nombre_ejemplar.Name = "Nombre_ejemplar";
+            this.Nombre_ejemplar.ReadOnly = true;
+            this.Nombre_ejemplar.Width = 125;
+            // 
+            // Nombre_editorial
+            // 
+            this.Nombre_editorial.DataPropertyName = "nombre_editorial";
+            this.Nombre_editorial.HeaderText = "Editorial";
+            this.Nombre_editorial.Name = "Nombre_editorial";
+            this.Nombre_editorial.ReadOnly = true;
+            this.Nombre_editorial.Width = 70;
+            // 
+            // Nombre_Autor
+            // 
+            this.Nombre_Autor.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Nombre_Autor.DataPropertyName = "nombre_autor";
+            this.Nombre_Autor.HeaderText = "Autor";
+            this.Nombre_Autor.Name = "Nombre_Autor";
+            this.Nombre_Autor.ReadOnly = true;
             // 
             // tabPage14
             // 
@@ -2288,6 +2333,17 @@
             this.pictureBox16.TabIndex = 2;
             this.pictureBox16.TabStop = false;
             // 
+            // btnEliminarPrestamos
+            // 
+            this.btnEliminarPrestamos.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEliminarPrestamos.Location = new System.Drawing.Point(669, 3);
+            this.btnEliminarPrestamos.Name = "btnEliminarPrestamos";
+            this.btnEliminarPrestamos.Size = new System.Drawing.Size(216, 136);
+            this.btnEliminarPrestamos.TabIndex = 1;
+            this.btnEliminarPrestamos.Text = "Eliminar prestamos";
+            this.btnEliminarPrestamos.UseVisualStyleBackColor = true;
+            this.btnEliminarPrestamos.Click += new System.EventHandler(this.btnEliminarPrestamos_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -2398,6 +2454,13 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Button btnEliminarPrestamos;
+
+        private System.Windows.Forms.DataGridViewTextBoxColumn id_ejemplar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre_ejemplar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre_editorial;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre_Autor;
 
         private System.Windows.Forms.DataGridView dgvPrestamo;
 
