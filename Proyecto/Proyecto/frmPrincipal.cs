@@ -21,13 +21,6 @@ namespace Proyecto
         public frmPrincipal()
         {
             InitializeComponent();
-            ImagenesInicioSlide = new List<Bitmap>();
-            //ImagenesInicioSlide.Add(Resources._6);
-            //ImagenesInicioSlide.Add(Resources._5);
-            //ImagenesInicioSlide.Add(Resources._4);
-            //ImagenesInicioSlide.Add(Resources._3);
-           // ImagenesInicioSlide.Add(Resources._2);
-
         }
         
         private void btmColeccion_Click(object sender, EventArgs e)
@@ -146,32 +139,19 @@ namespace Proyecto
             }
             
             
-            
-            
-            /*List<Area> inclusion = funcionesUtilitarias.funcionMostrar(1, "salon para menores de edad"); //Mando 1 porque es el primer piso
-            txtInclusion_piso01.AppendText(inclusion.AreaNombre + ": " + inclusion.AreaDescripcion + " - ");
-            txtInclusion_piso01.AppendText(inclusion.AreaHorario + Environment.NewLine);
-            //Para area computacion piso 01
-            List<Area> computo = funcionesUtilitarias.funcionMostrar(1, "Area de computo"); //Mando 1 porque es el primer piso
-            txtComputo_piso01.AppendText(computo.AreaNombre + ": " + computo.AreaDescripcion + " - ");
-            txtComputo_piso01.AppendText(computo.AreaHorario + Environment.NewLine);
-            //Para area auditorium piso 01
-            List<Area> auditorio = funcionesUtilitarias.funcionMostrar(1, "Auditorium para conferencias/peliculas"); //Mando 1 porque es el primer piso
-            txtAuditorio_piso01.AppendText(auditorio.AreaNombre + ": " + auditorio.AreaDescripcion + " - ");
-            txtAuditorio_piso01.AppendText(auditorio.AreaHorario + Environment.NewLine);*/
         }
 
         private void btmBusqueda_Click(object sender, EventArgs e)
         {
             tcPrincipal.SelectedIndex = 3;
-            
+            dgvBusqueda.DataSource = null;
+            dgvBusqueda.DataSource = EjemplarDAO.obtenerTodos();
+
         }
 
         private void btmPrestamo_Click(object sender, EventArgs e)
         {
             tcPrincipal.SelectedIndex = 4;
-            
-            
         }
 
         private void consulta()

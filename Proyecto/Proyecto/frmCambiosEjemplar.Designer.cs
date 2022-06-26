@@ -238,6 +238,7 @@ namespace Proyecto
             this.btnAgregarCambio.TabIndex = 12;
             this.btnAgregarCambio.Text = "Agregar";
             this.btnAgregarCambio.UseVisualStyleBackColor = true;
+            this.btnAgregarCambio.Click += new System.EventHandler(this.btnAgregarCambio_Click);
             // 
             // btnCancelar
             // 
@@ -248,6 +249,7 @@ namespace Proyecto
             this.btnCancelar.TabIndex = 13;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // panel2
             // 

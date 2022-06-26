@@ -172,3 +172,16 @@ C:\Users\fullm\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.Co
 C:\Users\fullm\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\fullm\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
 C:\Users\fullm\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.frmCambiosEjemplar.resources
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.AssemblyReference.cache
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.frmCambiosEjemplar.resources
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.frmPrincipal.resources
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.Login.resources
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\fullm\Desktop\Repo 2\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.pdb

@@ -1955,11 +1955,12 @@
             // 
             // btnInsertarEjemplar
             // 
+            this.btnInsertarEjemplar.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.btnInsertarEjemplar.Location = new System.Drawing.Point(336, 538);
             this.btnInsertarEjemplar.Name = "btnInsertarEjemplar";
             this.btnInsertarEjemplar.Size = new System.Drawing.Size(232, 71);
             this.btnInsertarEjemplar.TabIndex = 9;
-            this.btnInsertarEjemplar.Text = "Agregar Nuevo Ejemplar";
+            this.btnInsertarEjemplar.Text = "Edición de Ejemplares";
             this.btnInsertarEjemplar.UseVisualStyleBackColor = true;
             this.btnInsertarEjemplar.Click += new System.EventHandler(this.btnInsertarEjemplar_Click);
             // 

@@ -250,7 +250,7 @@ namespace Proyecto
                 using (SqlConnection connection = new SqlConnection(cadena))
                 {
                     string query = "INSERT INTO EJEMPLAR(nombre, fecha_publicacion, id_editorial, id_autor,id_formato, id_coleccion) " +
-                    " VALUES (@nombre, @fecha, @editorial, 1, 1, 1)";
+                                   " VALUES (@nombre, @fecha, @editorial, @autor, @formato, @coleccion)";
                     SqlCommand command = new SqlCommand(query, connection);
                     command.Parameters.AddWithValue("@nombre", nombre);
                     command.Parameters.AddWithValue("@fecha", fecha);

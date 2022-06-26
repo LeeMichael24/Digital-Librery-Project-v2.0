@@ -37,31 +37,7 @@ namespace Proyecto
             cmbFormato.DataSource = EjemplarDAO.ObtenerFormatos();
         }
 
-        private void btnAgregarCambio_Click(object sender, EventArgs e)
-        {
-            int editorial, autor = 0, formato = 0 , coleccion = 0;
-            string nombre = txtNEjemplar.Text;
-            string fecha = txtFecha.Text;
-            editorial = Convert.ToInt32(cmbEditorial.SelectedIndex.ToString());
-            
-            
-
-            //Validar los campos (en el formulario)
-            if (nombre.Length > 0 && fecha.Length > 0)
-            {
-                if (EjemplarDAO.AgregarEjemplar(nombre, fecha, editorial, autor, formato, coleccion)){
-                    MessageBox.Show("Ejemplar agregado exitosamente!", "BINAES",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    txtNEjemplar.Clear();
-                    txtFecha.Clear();
-                }else
-                    MessageBox.Show("Error! Pruebe más tarde!", "BINAES",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else
-                MessageBox.Show("Error! Los campos están vacíos!", "POO",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
-        }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -109,6 +85,41 @@ namespace Proyecto
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
             
             this.Close( );
+        }
+
+        private void btnAgregarCambio_Click(object sender, EventArgs e)
+        {
+            string editorialS, autorS, formatoS, coleccionS;
+            string nombre = txtNEjemplar.Text;
+            string fecha = txtFecha.Text;
+            int editorial = Convert.ToInt32(editorialS = cmbEditorial.GetItemText(cmbEditorial.SelectedValue));
+            int autor = Convert.ToInt32(autorS = cmbAutor.GetItemText(cmbAutor.SelectedValue));
+            int formato = Convert.ToInt32(formatoS = cmbFormato.GetItemText(cmbFormato.SelectedValue));
+            int coleccion = Convert.ToInt32(coleccionS = cmbColeccion.GetItemText(cmbColeccion.SelectedValue));
+
+            
+            //Validar los campos (en el formulario)
+            if (nombre.Length > 0 && fecha.Length > 0)
+            {
+                if (EjemplarDAO.AgregarEjemplar(nombre, fecha, editorial, autor, formato, coleccion)){
+                    MessageBox.Show("Ejemplar agregado exitosamente!", "BINAES",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    txtNEjemplar.Clear();
+                    txtFecha.Clear();
+                }else
+                    MessageBox.Show("Error! Pruebe más tarde!", "BINAES",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+                MessageBox.Show("Error! Los campos están vacíos!", "BINAES",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            
+            this.Close();
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
     
