@@ -148,6 +148,7 @@
             this.pctBusquedaDecorando02 = new System.Windows.Forms.PictureBox();
             this.cmbBusqueda = new System.Windows.Forms.ComboBox();
             this.txtBusqueda = new System.Windows.Forms.TextBox();
+            this.btnInsertarEjemplar = new System.Windows.Forms.Button();
             this.tabPrestamo = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.dgvPrestamo = new System.Windows.Forms.DataGridView();
@@ -155,6 +156,7 @@
             this.Nombre_ejemplar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre_editorial = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre_Autor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnEliminarPrestamos = new System.Windows.Forms.Button();
             this.tabPage14 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -182,7 +184,6 @@
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.btnEliminarPrestamos = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -1822,12 +1823,15 @@
             this.tblBusqueda.Controls.Add(this.pctBusquedaDecorando02, 4, 0);
             this.tblBusqueda.Controls.Add(this.cmbBusqueda, 1, 1);
             this.tblBusqueda.Controls.Add(this.txtBusqueda, 2, 1);
+            this.tblBusqueda.Controls.Add(this.btnInsertarEjemplar, 2, 4);
             this.tblBusqueda.Location = new System.Drawing.Point(0, 0);
             this.tblBusqueda.Name = "tblBusqueda";
-            this.tblBusqueda.RowCount = 4;
+            this.tblBusqueda.RowCount = 6;
             this.tblBusqueda.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tblBusqueda.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tblBusqueda.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
+            this.tblBusqueda.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8F));
+            this.tblBusqueda.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52F));
+            this.tblBusqueda.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tblBusqueda.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tblBusqueda.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tblBusqueda.Size = new System.Drawing.Size(888, 716);
             this.tblBusqueda.TabIndex = 0;
@@ -1843,10 +1847,10 @@
             this.dgvBusqueda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvBusqueda.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {this.dgv_idBuscar, this.Nombre, this.Coleccion, this.Column1});
             this.tblBusqueda.SetColumnSpan(this.dgvBusqueda, 3);
-            this.dgvBusqueda.Location = new System.Drawing.Point(114, 145);
+            this.dgvBusqueda.Location = new System.Drawing.Point(114, 131);
             this.dgvBusqueda.Name = "dgvBusqueda";
             this.dgvBusqueda.ReadOnly = true;
-            this.dgvBusqueda.Size = new System.Drawing.Size(660, 495);
+            this.dgvBusqueda.Size = new System.Drawing.Size(660, 366);
             this.dgvBusqueda.TabIndex = 0;
             // 
             // dgv_idBuscar
@@ -1949,6 +1953,16 @@
             this.txtBusqueda.Size = new System.Drawing.Size(327, 21);
             this.txtBusqueda.TabIndex = 8;
             // 
+            // btnInsertarEjemplar
+            // 
+            this.btnInsertarEjemplar.Location = new System.Drawing.Point(336, 538);
+            this.btnInsertarEjemplar.Name = "btnInsertarEjemplar";
+            this.btnInsertarEjemplar.Size = new System.Drawing.Size(232, 71);
+            this.btnInsertarEjemplar.TabIndex = 9;
+            this.btnInsertarEjemplar.Text = "Agregar Nuevo Ejemplar";
+            this.btnInsertarEjemplar.UseVisualStyleBackColor = true;
+            this.btnInsertarEjemplar.Click += new System.EventHandler(this.btnInsertarEjemplar_Click);
+            // 
             // tabPrestamo
             // 
             this.tabPrestamo.Controls.Add(this.tableLayoutPanel2);
@@ -2025,6 +2039,17 @@
             this.Nombre_Autor.HeaderText = "Autor";
             this.Nombre_Autor.Name = "Nombre_Autor";
             this.Nombre_Autor.ReadOnly = true;
+            // 
+            // btnEliminarPrestamos
+            // 
+            this.btnEliminarPrestamos.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEliminarPrestamos.Location = new System.Drawing.Point(669, 3);
+            this.btnEliminarPrestamos.Name = "btnEliminarPrestamos";
+            this.btnEliminarPrestamos.Size = new System.Drawing.Size(216, 136);
+            this.btnEliminarPrestamos.TabIndex = 1;
+            this.btnEliminarPrestamos.Text = "Eliminar prestamos";
+            this.btnEliminarPrestamos.UseVisualStyleBackColor = true;
+            this.btnEliminarPrestamos.Click += new System.EventHandler(this.btnEliminarPrestamos_Click);
             // 
             // tabPage14
             // 
@@ -2333,17 +2358,6 @@
             this.pictureBox16.TabIndex = 2;
             this.pictureBox16.TabStop = false;
             // 
-            // btnEliminarPrestamos
-            // 
-            this.btnEliminarPrestamos.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEliminarPrestamos.Location = new System.Drawing.Point(669, 3);
-            this.btnEliminarPrestamos.Name = "btnEliminarPrestamos";
-            this.btnEliminarPrestamos.Size = new System.Drawing.Size(216, 136);
-            this.btnEliminarPrestamos.TabIndex = 1;
-            this.btnEliminarPrestamos.Text = "Eliminar prestamos";
-            this.btnEliminarPrestamos.UseVisualStyleBackColor = true;
-            this.btnEliminarPrestamos.Click += new System.EventHandler(this.btnEliminarPrestamos_Click);
-            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -2454,6 +2468,8 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Button btnInsertarEjemplar;
 
         private System.Windows.Forms.Button btnEliminarPrestamos;
 

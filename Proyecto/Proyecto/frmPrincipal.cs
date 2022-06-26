@@ -374,5 +374,13 @@ namespace Proyecto
 
             cn.Close();
         }
+
+        private void btnInsertarEjemplar_Click(object sender, EventArgs e)
+        {
+            using (frmCambiosEjemplar Ventana = new frmCambiosEjemplar())
+            {
+                DialogResult Resultado = Ventana.ShowDialog();
+            }
+        }
     }
 }

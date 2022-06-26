@@ -48,10 +48,20 @@
     <ItemGroup>
         <Compile Include="Area.cs" />
         <Compile Include="AreaDAO.cs" />
+        <Compile Include="Autor.cs" />
+        <Compile Include="Coleccion.cs" />
+        <Compile Include="Editorial.cs" />
         <Compile Include="Ejemplar.cs" />
         <Compile Include="EjemplarDAO.cs" />
         <Compile Include="Eventos.cs" />
         <Compile Include="EventosDAO.cs" />
+        <Compile Include="Formato.cs" />
+        <Compile Include="frmCambiosEjemplar.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="frmCambiosEjemplar.Designer.cs">
+          <DependentUpon>frmCambiosEjemplar.cs</DependentUpon>
+        </Compile>
         <Compile Include="frmPrincipal.cs">
             <SubType>Form</SubType>
         </Compile>
@@ -67,6 +77,9 @@
         </Compile>
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <EmbeddedResource Include="frmCambiosEjemplar.resx">
+          <DependentUpon>frmCambiosEjemplar.cs</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Include="frmPrincipal.resx">
           <DependentUpon>frmPrincipal.cs</DependentUpon>
         </EmbeddedResource>
