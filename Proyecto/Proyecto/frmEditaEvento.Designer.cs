@@ -69,30 +69,39 @@ namespace Proyecto
             // 
             // label1
             // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(63, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 21);
             this.label1.TabIndex = 6;
             this.label1.Text = "ID Evento:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label2
             // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(63, 66);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 21);
             this.label2.TabIndex = 7;
             this.label2.Text = "Título Evento:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(63, 112);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(41, 112);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(109, 21);
+            this.label6.Size = new System.Drawing.Size(131, 21);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Total de Asistentes";
+            this.label6.Text = "Total de Asistentes;";
             // 
             // btnGuardar
             // 
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.btnGuardar.Location = new System.Drawing.Point(63, 163);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(124, 43);
@@ -103,6 +112,7 @@ namespace Proyecto
             // 
             // btnCancelar
             // 
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.btnCancelar.Location = new System.Drawing.Point(433, 163);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(124, 43);
@@ -113,6 +123,7 @@ namespace Proyecto
             // 
             // btnEliminar
             // 
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.btnEliminar.Location = new System.Drawing.Point(248, 163);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(124, 43);
@@ -125,7 +136,7 @@ namespace Proyecto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (229)))), ((int) (((byte) (233)))), ((int) (((byte) (240)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
             this.ClientSize = new System.Drawing.Size(617, 251);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnCancelar);

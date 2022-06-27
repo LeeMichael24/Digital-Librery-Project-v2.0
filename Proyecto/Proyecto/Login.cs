@@ -45,11 +45,11 @@ namespace Proyecto
             this.label3 = new System.Windows.Forms.Label();
             this.tabUsuario = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnLoginUsuario = new System.Windows.Forms.Button();
             this.txtboxUsuarioLoginUsua = new System.Windows.Forms.TextBox();
             this.btnHomeU = new System.Windows.Forms.Button();
-            this.txtboxContraLoginUsua = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -80,16 +80,19 @@ namespace Proyecto
             // 
             // tabControlInicio
             // 
+            this.tabControlInicio.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
             this.tableLayoutPanel1.SetColumnSpan(this.tabControlInicio, 2);
             this.tabControlInicio.Controls.Add(this.tabInicioLogin1);
             this.tabControlInicio.Controls.Add(this.tabControlAdmin);
             this.tabControlInicio.Controls.Add(this.tabUsuario);
             this.tabControlInicio.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlInicio.ItemSize = new System.Drawing.Size(0, 1);
             this.tabControlInicio.Location = new System.Drawing.Point(3, 3);
             this.tabControlInicio.Name = "tabControlInicio";
             this.tableLayoutPanel1.SetRowSpan(this.tabControlInicio, 2);
             this.tabControlInicio.SelectedIndex = 0;
             this.tabControlInicio.Size = new System.Drawing.Size(670, 744);
+            this.tabControlInicio.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControlInicio.TabIndex = 0;
             // 
             // tabInicioLogin1
@@ -100,10 +103,10 @@ namespace Proyecto
             this.tabInicioLogin1.Controls.Add(this.label13);
             this.tabInicioLogin1.Controls.Add(this.label12);
             this.tabInicioLogin1.Controls.Add(this.groupBox1);
-            this.tabInicioLogin1.Location = new System.Drawing.Point(4, 22);
+            this.tabInicioLogin1.Location = new System.Drawing.Point(4, 5);
             this.tabInicioLogin1.Name = "tabInicioLogin1";
             this.tabInicioLogin1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabInicioLogin1.Size = new System.Drawing.Size(662, 718);
+            this.tabInicioLogin1.Size = new System.Drawing.Size(662, 735);
             this.tabInicioLogin1.TabIndex = 0;
             this.tabInicioLogin1.Text = "tabPage1";
             // 
@@ -134,9 +137,9 @@ namespace Proyecto
             // label12
             // 
             this.label12.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
-            this.label12.Location = new System.Drawing.Point(0, 3);
+            this.label12.Location = new System.Drawing.Point(0, -5);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(662, 65);
+            this.label12.Size = new System.Drawing.Size(662, 73);
             this.label12.TabIndex = 8;
             // 
             // groupBox1
@@ -231,10 +234,10 @@ namespace Proyecto
             this.tabControlAdmin.Controls.Add(this.groupBox2);
             this.tabControlAdmin.Controls.Add(this.label4);
             this.tabControlAdmin.Controls.Add(this.label3);
-            this.tabControlAdmin.Location = new System.Drawing.Point(4, 22);
+            this.tabControlAdmin.Location = new System.Drawing.Point(4, 5);
             this.tabControlAdmin.Name = "tabControlAdmin";
             this.tabControlAdmin.Padding = new System.Windows.Forms.Padding(3);
-            this.tabControlAdmin.Size = new System.Drawing.Size(662, 718);
+            this.tabControlAdmin.Size = new System.Drawing.Size(662, 735);
             this.tabControlAdmin.TabIndex = 1;
             this.tabControlAdmin.Text = "Admin";
             // 
@@ -364,32 +367,43 @@ namespace Proyecto
             this.tabUsuario.Controls.Add(this.groupBox3);
             this.tabUsuario.Controls.Add(this.label7);
             this.tabUsuario.Controls.Add(this.label6);
-            this.tabUsuario.Location = new System.Drawing.Point(4, 22);
+            this.tabUsuario.Location = new System.Drawing.Point(4, 5);
             this.tabUsuario.Name = "tabUsuario";
             this.tabUsuario.Padding = new System.Windows.Forms.Padding(3);
-            this.tabUsuario.Size = new System.Drawing.Size(662, 718);
+            this.tabUsuario.Size = new System.Drawing.Size(662, 735);
             this.tabUsuario.TabIndex = 2;
             this.tabUsuario.Text = "Usuario";
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (76)))), ((int) (((byte) (86)))), ((int) (((byte) (106)))));
+            this.groupBox3.Controls.Add(this.label8);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.btnLoginUsuario);
             this.groupBox3.Controls.Add(this.txtboxUsuarioLoginUsua);
             this.groupBox3.Controls.Add(this.btnHomeU);
-            this.groupBox3.Controls.Add(this.txtboxContraLoginUsua);
             this.groupBox3.Location = new System.Drawing.Point(63, 63);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(537, 577);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Impact", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label8.Location = new System.Drawing.Point(99, 84);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(365, 78);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "Usuario";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(66, 183);
+            this.label5.Location = new System.Drawing.Point(66, 232);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(125, 27);
             this.label5.TabIndex = 9;
@@ -412,7 +426,7 @@ namespace Proyecto
             // 
             // txtboxUsuarioLoginUsua
             // 
-            this.txtboxUsuarioLoginUsua.Location = new System.Drawing.Point(217, 179);
+            this.txtboxUsuarioLoginUsua.Location = new System.Drawing.Point(217, 228);
             this.txtboxUsuarioLoginUsua.Multiline = true;
             this.txtboxUsuarioLoginUsua.Name = "txtboxUsuarioLoginUsua";
             this.txtboxUsuarioLoginUsua.Size = new System.Drawing.Size(226, 31);
@@ -430,14 +444,6 @@ namespace Proyecto
             this.btnHomeU.TabIndex = 7;
             this.btnHomeU.UseVisualStyleBackColor = true;
             this.btnHomeU.Click += new System.EventHandler(this.btnHomeU_Click);
-            // 
-            // txtboxContraLoginUsua
-            // 
-            this.txtboxContraLoginUsua.Location = new System.Drawing.Point(217, 241);
-            this.txtboxContraLoginUsua.Multiline = true;
-            this.txtboxContraLoginUsua.Name = "txtboxContraLoginUsua";
-            this.txtboxContraLoginUsua.Size = new System.Drawing.Size(226, 31);
-            this.txtboxContraLoginUsua.TabIndex = 4;
             // 
             // label7
             // 
@@ -490,6 +496,8 @@ namespace Proyecto
             this.ResumeLayout(false);
         }
 
+        private System.Windows.Forms.Label label8;
+
         private System.Windows.Forms.Label label5;
 
         private System.Windows.Forms.Label label1;
@@ -528,7 +536,6 @@ namespace Proyecto
 
         private System.Windows.Forms.Button btnHomeU;
 
-        private System.Windows.Forms.TextBox txtboxContraLoginUsua;
         private System.Windows.Forms.Button btnLoginUsuario;
 
         private System.Windows.Forms.Label label7;
@@ -606,5 +613,6 @@ namespace Proyecto
                 }
             }
         }
+        
     }
 }
