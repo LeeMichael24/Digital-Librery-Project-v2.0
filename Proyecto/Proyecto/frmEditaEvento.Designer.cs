@@ -73,7 +73,7 @@ namespace Proyecto
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 21);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Id evento";
+            this.label1.Text = "ID Evento:";
             // 
             // label2
             // 
@@ -81,7 +81,7 @@ namespace Proyecto
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 21);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Titulo evento";
+            this.label2.Text = "Título Evento:";
             // 
             // label6
             // 
@@ -89,13 +89,13 @@ namespace Proyecto
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(109, 21);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Total de asistentes";
+            this.label6.Text = "Total de Asistentes";
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(171, 177);
+            this.btnGuardar.Location = new System.Drawing.Point(63, 163);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(89, 29);
+            this.btnGuardar.Size = new System.Drawing.Size(124, 43);
             this.btnGuardar.TabIndex = 12;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
@@ -103,9 +103,9 @@ namespace Proyecto
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(453, 177);
+            this.btnCancelar.Location = new System.Drawing.Point(433, 163);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(89, 29);
+            this.btnCancelar.Size = new System.Drawing.Size(124, 43);
             this.btnCancelar.TabIndex = 13;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -113,9 +113,9 @@ namespace Proyecto
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(303, 177);
+            this.btnEliminar.Location = new System.Drawing.Point(248, 163);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(89, 29);
+            this.btnEliminar.Size = new System.Drawing.Size(124, 43);
             this.btnEliminar.TabIndex = 14;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -125,6 +125,7 @@ namespace Proyecto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (229)))), ((int) (((byte) (233)))), ((int) (((byte) (240)))));
             this.ClientSize = new System.Drawing.Size(617, 251);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnCancelar);

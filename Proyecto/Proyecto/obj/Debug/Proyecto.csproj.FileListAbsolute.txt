@@ -213,3 +213,4 @@ C:\Users\micha\OneDrive\Desktop\Proyecto poo\Reposicion\Proyecto\Proyecto\obj\De
 C:\Users\micha\OneDrive\Desktop\Proyecto poo\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
 C:\Users\micha\OneDrive\Desktop\Proyecto poo\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\micha\OneDrive\Desktop\Proyecto poo\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\fullm\Desktop\Reposicion\Proyecto\Proyecto\obj\Debug\Proyecto.frmEditaEvento.resources

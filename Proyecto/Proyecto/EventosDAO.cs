@@ -27,8 +27,8 @@ namespace Proyecto
                         Eve.nombre = reader["titulo_evento"].ToString();
                         Eve.fechaInicio = reader["fechahora_inicio"].ToString();
                         Eve.fechaFinal = reader["fechahora_final"].ToString();
+                        Eve.imagen = new Bitmap(reader["imagen"].ToString());
                         Eve.asistentes = Convert.ToInt32(reader["asistentes_esperado"].ToString());
-                        Eve.imagen = new Bitmap(Resources.mapa);
                         lista.Add(Eve);
                     }   
                 }

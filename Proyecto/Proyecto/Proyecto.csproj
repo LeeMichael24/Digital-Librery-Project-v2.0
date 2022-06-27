@@ -119,6 +119,7 @@
     </ItemGroup>
     <ItemGroup>
       <Content Include="Resources\angle_left.png" />
+      <Content Include="Resources\Arbol_de_fuego.jpg" />
       <Content Include="Resources\AreaComputo.jpg" />
       <Content Include="Resources\Area_de_computadora2.jpg" />
       <Content Include="Resources\Auditorium.jpg" />
@@ -127,10 +128,18 @@
       <Content Include="Resources\Biblioteca_2.jpg" />
       <Content Include="Resources\book.png" />
       <Content Include="Resources\Busqueda__1_.png" />
+      <Content Include="Resources\Calculo_una_variable.jpg" />
+      <Content Include="Resources\Casa_vidrio.jpg" />
+      <Content Include="Resources\Cien_anios_soledad.jpg" />
       <Content Include="Resources\Coleccion.png" />
       <Content Include="Resources\Coleccion__1_.png" />
       <Content Include="Resources\computer.png" />
       <Content Include="Resources\estante_para_libros.png" />
+      <Content Include="Resources\evento_certamenliterario.png" />
+      <Content Include="Resources\evento_concursofotografia.jpg" />
+      <Content Include="Resources\evento_concursorobotica.jpg" />
+      <Content Include="Resources\evento_congresoingenieria.png" />
+      <Content Include="Resources\evento_tardepeliculas.jpg" />
       <Content Include="Resources\Evento__1_.png" />
       <Content Include="Resources\Home.png" />
       <Content Include="Resources\Home__1_.png" />

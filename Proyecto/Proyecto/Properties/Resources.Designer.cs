@@ -73,6 +73,16 @@ namespace Proyecto.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Arbol_de_fuego {
+            get {
+                object obj = ResourceManager.GetObject("Arbol_de_fuego", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Area_de_computadora2 {
             get {
                 object obj = ResourceManager.GetObject("Area_de_computadora2", resourceCulture);
@@ -162,6 +172,36 @@ namespace Proyecto.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Calculo_una_variable {
+            get {
+                object obj = ResourceManager.GetObject("Calculo_una_variable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Casa_vidrio {
+            get {
+                object obj = ResourceManager.GetObject("Casa_vidrio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cien_anios_soledad {
+            get {
+                object obj = ResourceManager.GetObject("Cien_anios_soledad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Coleccion {
             get {
                 object obj = ResourceManager.GetObject("Coleccion", resourceCulture);
@@ -205,6 +245,56 @@ namespace Proyecto.Properties {
         internal static System.Drawing.Bitmap Evento__1_ {
             get {
                 object obj = ResourceManager.GetObject("Evento__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap evento_certamenliterario {
+            get {
+                object obj = ResourceManager.GetObject("evento_certamenliterario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap evento_concursofotografia {
+            get {
+                object obj = ResourceManager.GetObject("evento_concursofotografia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap evento_concursorobotica {
+            get {
+                object obj = ResourceManager.GetObject("evento_concursorobotica", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap evento_congresoingenieria {
+            get {
+                object obj = ResourceManager.GetObject("evento_congresoingenieria", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap evento_tardepeliculas {
+            get {
+                object obj = ResourceManager.GetObject("evento_tardepeliculas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

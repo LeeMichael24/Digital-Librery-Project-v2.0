@@ -33,20 +33,21 @@ namespace Proyecto
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtNEjemplar = new System.Windows.Forms.TextBox();
-            this.cmbEditorial = new System.Windows.Forms.ComboBox();
-            this.cmbAutor = new System.Windows.Forms.ComboBox();
-            this.cmbFormato = new System.Windows.Forms.ComboBox();
-            this.cmbColeccion = new System.Windows.Forms.ComboBox();
-            this.txtFecha = new System.Windows.Forms.TextBox();
-            this.btnAgregarCambio = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnAgregarCambio = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.cmbColeccion = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cmbFormato = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cmbAutor = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cmbEditorial = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtFecha = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtNEjemplar = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnEliminarEje = new System.Windows.Forms.Button();
@@ -79,171 +80,48 @@ namespace Proyecto
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (229)))), ((int) (((byte) (233)))), ((int) (((byte) (240)))));
             this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.Controls.Add(this.label1, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label2, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label3, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label4, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.label5, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.label6, 1, 6);
-            this.tableLayoutPanel1.Controls.Add(this.txtNEjemplar, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.cmbEditorial, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.cmbAutor, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.cmbFormato, 2, 5);
-            this.tableLayoutPanel1.Controls.Add(this.cmbColeccion, 2, 6);
-            this.tableLayoutPanel1.Controls.Add(this.txtFecha, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.btnAgregarCambio, 1, 7);
-            this.tableLayoutPanel1.Controls.Add(this.btnCancelar, 2, 7);
+            this.tableLayoutPanel1.Controls.Add(this.btnCancelar, 2, 8);
+            this.tableLayoutPanel1.Controls.Add(this.btnAgregarCambio, 1, 8);
+            this.tableLayoutPanel1.Controls.Add(this.label6, 1, 7);
+            this.tableLayoutPanel1.Controls.Add(this.cmbColeccion, 2, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label5, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.cmbFormato, 2, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label4, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.cmbAutor, 2, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label3, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.cmbEditorial, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txtFecha, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txtNEjemplar, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label11, 1, 1);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 9;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.001004F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.32932F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.32932F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.32932F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.32932F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.32932F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.32932F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.02205F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.001004F));
+            this.tableLayoutPanel1.RowCount = 10;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.020081F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.04016F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.64659F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.64659F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.64659F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.64659F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.64659F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.64659F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.04016F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.020081F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(475, 531);
             this.tableLayoutPanel1.TabIndex = 3;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Location = new System.Drawing.Point(50, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(136, 70);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nombre:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.Location = new System.Drawing.Point(50, 96);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 70);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Fecha Publicación:";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label3
-            // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.Location = new System.Drawing.Point(50, 166);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 70);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Editorial:";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.Location = new System.Drawing.Point(50, 236);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(136, 70);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Autor:";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label5
-            // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.Location = new System.Drawing.Point(50, 306);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(136, 70);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Formato:";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label6
-            // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.Location = new System.Drawing.Point(50, 376);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(136, 70);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Colección:";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // txtNEjemplar
-            // 
-            this.txtNEjemplar.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNEjemplar.Location = new System.Drawing.Point(192, 29);
-            this.txtNEjemplar.Name = "txtNEjemplar";
-            this.txtNEjemplar.Size = new System.Drawing.Size(231, 20);
-            this.txtNEjemplar.TabIndex = 6;
-            // 
-            // cmbEditorial
-            // 
-            this.cmbEditorial.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmbEditorial.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbEditorial.FormattingEnabled = true;
-            this.cmbEditorial.Location = new System.Drawing.Point(192, 169);
-            this.cmbEditorial.Name = "cmbEditorial";
-            this.cmbEditorial.Size = new System.Drawing.Size(231, 21);
-            this.cmbEditorial.TabIndex = 7;
-            // 
-            // cmbAutor
-            // 
-            this.cmbAutor.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmbAutor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbAutor.FormattingEnabled = true;
-            this.cmbAutor.Location = new System.Drawing.Point(192, 239);
-            this.cmbAutor.Name = "cmbAutor";
-            this.cmbAutor.Size = new System.Drawing.Size(231, 21);
-            this.cmbAutor.TabIndex = 8;
-            // 
-            // cmbFormato
-            // 
-            this.cmbFormato.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmbFormato.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbFormato.FormattingEnabled = true;
-            this.cmbFormato.Location = new System.Drawing.Point(192, 309);
-            this.cmbFormato.Name = "cmbFormato";
-            this.cmbFormato.Size = new System.Drawing.Size(231, 21);
-            this.cmbFormato.TabIndex = 9;
-            // 
-            // cmbColeccion
-            // 
-            this.cmbColeccion.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmbColeccion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbColeccion.FormattingEnabled = true;
-            this.cmbColeccion.Location = new System.Drawing.Point(192, 379);
-            this.cmbColeccion.Name = "cmbColeccion";
-            this.cmbColeccion.Size = new System.Drawing.Size(231, 21);
-            this.cmbColeccion.TabIndex = 10;
-            // 
-            // txtFecha
-            // 
-            this.txtFecha.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtFecha.Location = new System.Drawing.Point(192, 99);
-            this.txtFecha.Name = "txtFecha";
-            this.txtFecha.Size = new System.Drawing.Size(231, 20);
-            this.txtFecha.TabIndex = 11;
-            // 
-            // btnAgregarCambio
-            // 
-            this.btnAgregarCambio.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAgregarCambio.Location = new System.Drawing.Point(50, 449);
-            this.btnAgregarCambio.Name = "btnAgregarCambio";
-            this.btnAgregarCambio.Size = new System.Drawing.Size(121, 47);
-            this.btnAgregarCambio.TabIndex = 12;
-            this.btnAgregarCambio.Text = "Agregar";
-            this.btnAgregarCambio.UseVisualStyleBackColor = true;
-            this.btnAgregarCambio.Click += new System.EventHandler(this.btnAgregarCambio_Click);
             // 
             // btnCancelar
             // 
             this.btnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCancelar.Location = new System.Drawing.Point(288, 449);
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnCancelar.Location = new System.Drawing.Point(288, 448);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(135, 47);
             this.btnCancelar.TabIndex = 13;
@@ -251,8 +129,155 @@ namespace Proyecto
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
+            // btnAgregarCambio
+            // 
+            this.btnAgregarCambio.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAgregarCambio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnAgregarCambio.Location = new System.Drawing.Point(50, 448);
+            this.btnAgregarCambio.Name = "btnAgregarCambio";
+            this.btnAgregarCambio.Size = new System.Drawing.Size(135, 47);
+            this.btnAgregarCambio.TabIndex = 12;
+            this.btnAgregarCambio.Text = "Agregar";
+            this.btnAgregarCambio.UseVisualStyleBackColor = true;
+            this.btnAgregarCambio.Click += new System.EventHandler(this.btnAgregarCambio_Click);
+            // 
+            // label6
+            // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label6.Location = new System.Drawing.Point(50, 384);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(136, 61);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Colección:";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // cmbColeccion
+            // 
+            this.cmbColeccion.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbColeccion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbColeccion.FormattingEnabled = true;
+            this.cmbColeccion.Location = new System.Drawing.Point(192, 387);
+            this.cmbColeccion.Name = "cmbColeccion";
+            this.cmbColeccion.Size = new System.Drawing.Size(231, 21);
+            this.cmbColeccion.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label5.Location = new System.Drawing.Point(50, 323);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(136, 61);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Formato:";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // cmbFormato
+            // 
+            this.cmbFormato.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbFormato.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFormato.FormattingEnabled = true;
+            this.cmbFormato.Location = new System.Drawing.Point(192, 326);
+            this.cmbFormato.Name = "cmbFormato";
+            this.cmbFormato.Size = new System.Drawing.Size(231, 21);
+            this.cmbFormato.TabIndex = 9;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label4.Location = new System.Drawing.Point(50, 262);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(136, 61);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Autor:";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // cmbAutor
+            // 
+            this.cmbAutor.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbAutor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbAutor.FormattingEnabled = true;
+            this.cmbAutor.Location = new System.Drawing.Point(192, 265);
+            this.cmbAutor.Name = "cmbAutor";
+            this.cmbAutor.Size = new System.Drawing.Size(231, 21);
+            this.cmbAutor.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label3.Location = new System.Drawing.Point(50, 201);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(136, 61);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Editorial:";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // cmbEditorial
+            // 
+            this.cmbEditorial.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.cmbEditorial.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbEditorial.FormattingEnabled = true;
+            this.cmbEditorial.Location = new System.Drawing.Point(192, 204);
+            this.cmbEditorial.Name = "cmbEditorial";
+            this.cmbEditorial.Size = new System.Drawing.Size(231, 21);
+            this.cmbEditorial.TabIndex = 7;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label2.Location = new System.Drawing.Point(50, 140);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(136, 61);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Fecha Publicación:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtFecha
+            // 
+            this.txtFecha.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtFecha.Location = new System.Drawing.Point(192, 143);
+            this.txtFecha.Name = "txtFecha";
+            this.txtFecha.Size = new System.Drawing.Size(231, 20);
+            this.txtFecha.TabIndex = 11;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label1.Location = new System.Drawing.Point(50, 79);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(136, 61);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Nombre:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtNEjemplar
+            // 
+            this.txtNEjemplar.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtNEjemplar.Location = new System.Drawing.Point(192, 82);
+            this.txtNEjemplar.Name = "txtNEjemplar";
+            this.txtNEjemplar.Size = new System.Drawing.Size(231, 20);
+            this.txtNEjemplar.TabIndex = 6;
+            // 
+            // label11
+            // 
+            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.SetColumnSpan(this.label11, 2);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label11.Location = new System.Drawing.Point(50, 26);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(373, 53);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "Insertando Ejemplares";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.groupBox2);
             this.panel2.Controls.Add(this.groupBox1);
             this.panel2.Location = new System.Drawing.Point(483, -3);
@@ -268,7 +293,7 @@ namespace Proyecto
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.txtEliminarEje);
             this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Location = new System.Drawing.Point(14, 295);
+            this.groupBox2.Location = new System.Drawing.Point(15, 295);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(416, 226);
             this.groupBox2.TabIndex = 1;
@@ -278,6 +303,7 @@ namespace Proyecto
             // btnEliminarEje
             // 
             this.btnEliminarEje.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnEliminarEje.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.btnEliminarEje.Location = new System.Drawing.Point(155, 119);
             this.btnEliminarEje.Name = "btnEliminarEje";
             this.btnEliminarEje.Size = new System.Drawing.Size(104, 65);
@@ -297,6 +323,7 @@ namespace Proyecto
             // label9
             // 
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label9.Location = new System.Drawing.Point(25, 81);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(78, 32);
@@ -315,6 +342,7 @@ namespace Proyecto
             // label10
             // 
             this.label10.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label10.Location = new System.Drawing.Point(25, 43);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(78, 32);
@@ -330,7 +358,7 @@ namespace Proyecto
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.txtEditName);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Location = new System.Drawing.Point(14, 13);
+            this.groupBox1.Location = new System.Drawing.Point(14, 36);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(416, 226);
             this.groupBox1.TabIndex = 0;
@@ -340,6 +368,7 @@ namespace Proyecto
             // btnEditarEje
             // 
             this.btnEditarEje.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnEditarEje.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.btnEditarEje.Location = new System.Drawing.Point(155, 127);
             this.btnEditarEje.Name = "btnEditarEje";
             this.btnEditarEje.Size = new System.Drawing.Size(104, 65);
@@ -359,6 +388,7 @@ namespace Proyecto
             // label8
             // 
             this.label8.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label8.Location = new System.Drawing.Point(25, 89);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(78, 32);
@@ -377,6 +407,7 @@ namespace Proyecto
             // label7
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label7.Location = new System.Drawing.Point(25, 51);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(78, 32);
@@ -388,6 +419,7 @@ namespace Proyecto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (229)))), ((int) (((byte) (233)))), ((int) (((byte) (240)))));
             this.ClientSize = new System.Drawing.Size(926, 530);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -404,6 +436,8 @@ namespace Proyecto
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Label label11;
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label1;

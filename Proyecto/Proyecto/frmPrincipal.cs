@@ -374,6 +374,8 @@ namespace Proyecto
             {
                 DialogResult Resultado = Ventana.ShowDialog();
             }
+            
+            configurarDgvBusqueda1();
         }
 
         private void btnEditarEventos_Click(object sender, EventArgs e)

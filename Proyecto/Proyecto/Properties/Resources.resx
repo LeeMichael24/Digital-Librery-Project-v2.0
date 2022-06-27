@@ -217,4 +217,31 @@
   <data name="perfil" xml:space="preserve">
     <value>normal</value>
   </data>
+  <data name="evento_congresoingenieria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\evento_congresoingenieria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="evento_tardepeliculas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\evento_tardepeliculas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="evento_concursorobotica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\evento_concursorobotica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="evento_certamenliterario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\evento_certamenliterario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="evento_concursofotografia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\evento_concursofotografia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calculo_una_variable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calculo_una_variable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Casa_vidrio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Casa_vidrio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arbol_de_fuego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arbol_de_fuego.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cien_anios_soledad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cien_anios_soledad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
