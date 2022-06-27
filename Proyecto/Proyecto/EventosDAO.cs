@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
+using System.Net.Mime;
+using System.Windows.Forms;
 using Proyecto.Properties;
 
 namespace Proyecto
@@ -27,7 +30,16 @@ namespace Proyecto
                         Eve.nombre = reader["titulo_evento"].ToString();
                         Eve.fechaInicio = reader["fechahora_inicio"].ToString();
                         Eve.fechaFinal = reader["fechahora_final"].ToString();
-                        Eve.imagen = new Bitmap(reader["imagen"].ToString());
+                        string strimagen;
+                        strimagen =Path.Combine(Application.StartupPath, @"imagenes\"+reader["imagen"].ToString());
+                        try
+                        {
+                            Eve.imagen = new Bitmap(strimagen);
+                        }
+                        catch (Exception e)
+                        {
+                            Eve.imagen = null;
+                        }
                         Eve.asistentes = Convert.ToInt32(reader["asistentes_esperado"].ToString());
                         lista.Add(Eve);
                     }   
