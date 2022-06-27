@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using Proyecto.Properties;
 
 namespace Proyecto
 {
@@ -111,7 +112,6 @@ namespace Proyecto
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(37, 574);
             this.label15.TabIndex = 11;
-            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label14
             // 
@@ -444,7 +444,7 @@ namespace Proyecto
             this.MinimizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.Login_Load);
+            
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tabControlInicio.ResumeLayout(false);
             this.tabInicioLogin1.ResumeLayout(false);
@@ -519,7 +519,7 @@ namespace Proyecto
         {
             if (txtAdName.Text == "admin" && txtAdPassword.Text == "Claro")
             {
-                using (frmPrincipal Ventana = new frmPrincipal())
+                using (frmPrincipal Ventana = new frmPrincipal("admin"))
                 {
                     DialogResult Resultado = Ventana.ShowDialog();
                     
@@ -536,7 +536,7 @@ namespace Proyecto
 
         private void btnLoginUsuario_Click(object sender, EventArgs e)
         {
-            using (frmPrincipal Ventana = new frmPrincipal())
+            using (frmPrincipal Ventana = new frmPrincipal("usuario"))
             {
                 DialogResult Resultado = Ventana.ShowDialog();
                 if (Resultado == DialogResult.Yes)
@@ -568,16 +568,6 @@ namespace Proyecto
         private void btnHomeU_Click(object sender, EventArgs e)
         {
             tabControlInicio.SelectedIndex = 0;
-        }
-
-        private void Login_Load(object sender, EventArgs e)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        private void label15_Click(object sender, EventArgs e)
-        {
-            throw new System.NotImplementedException();
         }
     }
 }

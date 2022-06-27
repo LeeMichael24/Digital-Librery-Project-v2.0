@@ -17,10 +17,12 @@ namespace Proyecto
     {
         // public static string strMas;
         SqlConnection cn = new SqlConnection(Resources.cadena_conexion);
+        string strPerfil;
         private List<Bitmap> ImagenesInicioSlide;
-        public frmPrincipal()
+        public frmPrincipal(string sPerfil)
         {
             InitializeComponent();
+            strPerfil = sPerfil;
         }
         
         private void btmColeccion_Click(object sender, EventArgs e)
@@ -243,8 +245,19 @@ namespace Proyecto
         {
             //Configurar combo box
             cmbBusqueda.Text = "Título";
+            if (strPerfil != "admin")
+            {
+                btnEditarEventos.Visible = false;
+                btnEliminarPrestamos.Visible = false;
+                btnInsertarEjemplar.Visible = false;
+            } 
             
             //DGV Eventos
+            consultaEventos();
+        }
+
+        private void consultaEventos()
+        {
             gdvEventos.DataSource = null;
             gdvEventos.DataSource = EventosDAO.mostrarTodo();
             DataGridViewImageColumn columnaIma = (DataGridViewImageColumn) gdvEventos.Columns["imagen"];
@@ -361,6 +374,19 @@ namespace Proyecto
             {
                 DialogResult Resultado = Ventana.ShowDialog();
             }
+        }
+
+        private void btnEditarEventos_Click(object sender, EventArgs e)
+        {
+            /*using (frmEditaEvento Ventana = new frmEditaEvento())
+            { 
+                DialogResult Resultado = Ventana.ShowDialog();
+            }*/
+            frmEditaEvento _edEvento = new frmEditaEvento( Convert.ToInt16(gdvEventos.CurrentRow.Cells[0].Value.ToString()) , 
+                gdvEventos.CurrentRow.Cells[1].Value.ToString(), 
+                Convert.ToInt16(gdvEventos.CurrentRow.Cells[5].Value.ToString())) ;
+            _edEvento.ShowDialog();
+            consultaEventos();
         }
     }
 }

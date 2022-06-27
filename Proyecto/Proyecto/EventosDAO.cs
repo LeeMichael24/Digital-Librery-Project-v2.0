@@ -36,5 +36,63 @@ namespace Proyecto
             }
             return lista;
         }
+        
+        public static bool EditarEvento(string titulo, int id, int asistentes)
+        {
+            bool resultado = true;
+            try
+            {
+                string cadena = Resources.cadena_conexion;
+                using (SqlConnection connection = new SqlConnection(cadena))
+                {
+                    string query = "UPDATE EVENTO SET titulo_evento = @titulo_evento, asistentes_esperado = @asistentes_esperados WHERE id_evento = @id_evento";
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@titulo_evento", titulo);
+                    command.Parameters.AddWithValue("@asistentes_esperados", asistentes);
+                    command.Parameters.AddWithValue("@id_evento", id);
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                    connection.Close();
+                }
+            }
+            catch (Exception e)
+            {
+                resultado = false;
+            }
+            return resultado;
+        }
+
+        public static bool borrarEvento(int id)
+        {
+            bool resultado = true;
+            try
+            {
+                string cadena = Resources.cadena_conexion;
+                using (SqlConnection connection = new SqlConnection(cadena))
+                {
+                    string query = "DELETE FROM OBJETIVO WHERE id_evento = @id;";
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@id", id);
+                    connection.Open();
+                    command.ExecuteNonQuery();
+
+                    string query2 = "DELETE FROM EVENTO WHERE id_evento = @id";
+                    SqlCommand command2 = new SqlCommand(query2, connection);
+                    command2.Parameters.AddWithValue("@id", id);
+                    command2.ExecuteNonQuery();
+                    
+                    string query3 = "DELETE FROM EVENTO WHERE id_evento = @id";
+                    SqlCommand command3 = new SqlCommand(query3, connection);
+                    command3.Parameters.AddWithValue("@id", id);
+                    command3.ExecuteNonQuery();
+                    connection.Close();
+                }
+            }
+            catch (Exception e)
+            {
+                resultado = false;
+            }
+            return resultado;    
+        }
     }
 }

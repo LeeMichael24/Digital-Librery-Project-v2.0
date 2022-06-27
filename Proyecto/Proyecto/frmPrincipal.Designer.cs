@@ -53,6 +53,7 @@
             this.gdvEventos = new System.Windows.Forms.DataGridView();
             this.lblTitulo_evento = new System.Windows.Forms.Label();
             this.pctEventos_decoracion01 = new System.Windows.Forms.PictureBox();
+            this.btnEditarEventos = new System.Windows.Forms.Button();
             this.tabColeccion = new System.Windows.Forms.TabPage();
             this.tableLayoutPiso = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
@@ -568,6 +569,7 @@
             this.tblEventos.Controls.Add(this.gdvEventos, 1, 1);
             this.tblEventos.Controls.Add(this.lblTitulo_evento, 1, 0);
             this.tblEventos.Controls.Add(this.pctEventos_decoracion01, 2, 0);
+            this.tblEventos.Controls.Add(this.btnEditarEventos, 2, 2);
             this.tblEventos.Location = new System.Drawing.Point(9, 12);
             this.tblEventos.Name = "tblEventos";
             this.tblEventos.RowCount = 3;
@@ -608,6 +610,16 @@
             this.pctEventos_decoracion01.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pctEventos_decoracion01.TabIndex = 2;
             this.pctEventos_decoracion01.TabStop = false;
+            // 
+            // btnEditarEventos
+            // 
+            this.btnEditarEventos.Location = new System.Drawing.Point(704, 630);
+            this.btnEditarEventos.Name = "btnEditarEventos";
+            this.btnEditarEventos.Size = new System.Drawing.Size(128, 24);
+            this.btnEditarEventos.TabIndex = 3;
+            this.btnEditarEventos.Text = "Editar eventos";
+            this.btnEditarEventos.UseVisualStyleBackColor = true;
+            this.btnEditarEventos.Click += new System.EventHandler(this.btnEditarEventos_Click);
             // 
             // tabColeccion
             // 
@@ -2371,6 +2383,7 @@
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BINAES";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
@@ -2469,6 +2482,8 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Button btnEditarEventos;
 
         private System.Windows.Forms.Button btnInsertarEjemplar;
 

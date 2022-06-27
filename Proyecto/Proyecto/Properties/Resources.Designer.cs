@@ -290,6 +290,15 @@ namespace Proyecto.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to normal.
+        /// </summary>
+        internal static string perfil {
+            get {
+                return ResourceManager.GetString("perfil", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Prestamo__1_ {
